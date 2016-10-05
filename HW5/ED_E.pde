@@ -22,11 +22,12 @@ void setup(){
 void draw(){
   Ypos= Yoffset +sin(angle)*scalar;
   noStroke();
+  background (255,255,255);
   quad(Xpos+12, Ypos-48, Xpos-37, Ypos-144, Xpos-34, Ypos-150, Xpos+38, Ypos-33);
   quad(Xpos-10, Ypos-44, Xpos-54, Ypos-143, Xpos-47, Ypos-151, Xpos+9, Ypos-47);
   quad(Xpos-37, Ypos-32, Xpos-71, Ypos-141, Xpos-64, Ypos-148, Xpos+-11, Ypos-32);
   quad(Xpos+54, Ypos+35, Xpos+49, Ypos+68, Xpos+2, Ypos+44, Xpos+1, Ypos+31); 
-  background (255,255,255);
+  
   fill (125, 155,150);
   ellipse (Xpos, Ypos, 100,100);
   fill (0,0,0);
