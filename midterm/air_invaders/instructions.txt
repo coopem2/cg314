@@ -1,0 +1,6 @@
+A and Left keys to move left, D and Right key to move right
+
+Shift key to fire
+
+This is a space invaders inspired game where enemies decend apon you while trying to veer out of the way of your attacks
+destory them quickly and try to earn as high a score as possible before they reach the ground and destroy you.
